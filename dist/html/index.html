@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @include('./components/base/_meta.html')
+  @include('./components/base/_links.html')
+
+  <title>Finom</title>
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="overlay"></div>
+    @include('./components/_header.html')
+    <main class="main">
+      @include('./components/_section-hero.html')
+      @include('./components/_section-virtual-card.html')
+      @include('./components/_section-management-features.html')
+      @include('./components/_section-steps.html')
+      @include('./components/_section-about.html')
+    </main>
+    @include('./components/_footer.html')
+  </div>
+
+  @include('./components/base/_scripts.html')
+</body>
+
+</html>
